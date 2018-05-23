@@ -44,7 +44,7 @@ class Logs:
 		try:
 
 			# ファイルネーム
-			file_name = self.InfoPath / (DayCurrent() + "{}.log")
+			file_name = self.InfoPath / (DayCurrent() + ".log")
 			# メッセージの設定
 			message = "{} >>> Info:{}\t\n".format(HourCurrent(), message)
 			# 書き込み
@@ -71,7 +71,7 @@ class Logs:
 		try:
 
 			# ファイルネーム
-			file_name = self.ErrorPath / (DayCurrent() + "{}.log")
+			file_name = self.ErrorPath / (DayCurrent() + ".log")
 			# メッセージの設定
 			message = "{} >>> Error:{}\t\n".format(HourCurrent(), message)
 			# 書き込み
