@@ -3,6 +3,7 @@
 
 使い方:
 -------------------
+pip install pandas　をする
 ```python
 from Utilities import output
 
