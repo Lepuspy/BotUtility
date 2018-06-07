@@ -14,3 +14,14 @@ log.Info("test")
 # エラーログ
 log.Error("test")
 ```
+
+pip install requests　をする
+```python
+from Utilities import informations
+
+discord = informations.Discord(url="WebhockURL",name="表示名",icon="アイコンURL")
+discord.send("任意のメッセージ")
+
+line = informations.Line("Lineトークン")
+line.send("任意のメッセージ")
+```
